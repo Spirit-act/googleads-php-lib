@@ -1,5 +1,5 @@
 {
-  "name": "googleads/googleads-php-lib",
+  "name": "spirit-act/googleads-php-lib",
   "description": "Google Ad Manager SOAP API Client Library for PHP",
   "require": {
     "php": ">=8",
