@@ -59,13 +59,7 @@ class ChildPublisher
      * @param int $proposedRevenueShareMillipercent
      * @param string[] $onboardingTasks
      */
-<<<<<<< HEAD:src/Google/AdsApi/AdManager/v202411/ChildPublisher.php
-    public function __construct($approvedDelegationType = null, $proposedDelegationType = null, $status = null, $accountStatus = null, $childNetworkCode = null, $sellerId = null, $proposedRevenueShareMillipercent = null, ?array $onboardingTasks = null)
-||||||| 017215366:src/Google/AdsApi/AdManager/v202411/ChildPublisher.php
-    public function __construct($approvedDelegationType = null, $proposedDelegationType = null, $status = null, $accountStatus = null, $childNetworkCode = null, $sellerId = null, $proposedRevenueShareMillipercent = null, array $onboardingTasks = null)
-=======
-    public function __construct($approvedDelegationType = null, $proposedDelegationType = null, $invitationStatus = null, $accountStatus = null, $childNetworkCode = null, $sellerId = null, $proposedRevenueShareMillipercent = null, array $onboardingTasks = null)
->>>>>>> upstream/main:src/Google/AdsApi/AdManager/v202511/ChildPublisher.php
+    public function __construct($approvedDelegationType = null, $proposedDelegationType = null, $invitationStatus = null, $accountStatus = null, $childNetworkCode = null, $sellerId = null, $proposedRevenueShareMillipercent = null, ?array $onboardingTasks = null)
     {
       $this->approvedDelegationType = $approvedDelegationType;
       $this->proposedDelegationType = $proposedDelegationType;

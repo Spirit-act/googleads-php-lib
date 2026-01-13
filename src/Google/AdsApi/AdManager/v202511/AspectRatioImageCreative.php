@@ -50,13 +50,7 @@ class AspectRatioImageCreative extends \Google\AdsApi\AdManager\v202511\HasDesti
      * @param string[] $thirdPartyImpressionTrackingUrls
      * @param boolean $overrideSize
      */
-<<<<<<< HEAD:src/Google/AdsApi/AdManager/v202411/AspectRatioImageCreative.php
-    public function __construct($advertiserId = null, $id = null, $name = null, $size = null, $previewUrl = null, ?array $policyLabels = null, ?array $appliedLabels = null, $lastModifiedDateTime = null, ?array $customFieldValues = null, $thirdPartyDataDeclaration = null, $adBadgingEnabled = null, $destinationUrl = null, $destinationUrlType = null, ?array $imageAssets = null, $altText = null, ?array $thirdPartyImpressionTrackingUrls = null, $overrideSize = null)
-||||||| 017215366:src/Google/AdsApi/AdManager/v202411/AspectRatioImageCreative.php
-    public function __construct($advertiserId = null, $id = null, $name = null, $size = null, $previewUrl = null, array $policyLabels = null, array $appliedLabels = null, $lastModifiedDateTime = null, array $customFieldValues = null, $thirdPartyDataDeclaration = null, $adBadgingEnabled = null, $destinationUrl = null, $destinationUrlType = null, array $imageAssets = null, $altText = null, array $thirdPartyImpressionTrackingUrls = null, $overrideSize = null)
-=======
-    public function __construct($advertiserId = null, $id = null, $name = null, $size = null, $previewUrl = null, array $policyLabels = null, array $appliedLabels = null, $lastModifiedDateTime = null, array $customFieldValues = null, $thirdPartyDataDeclaration = null, $thirdPartyDataDeclarationStatus = null, $adBadgingEnabled = null, $selfDeclaredEuropeanUnionPoliticalContent = null, $destinationUrl = null, $destinationUrlType = null, array $imageAssets = null, $altText = null, array $thirdPartyImpressionTrackingUrls = null, $overrideSize = null)
->>>>>>> upstream/main:src/Google/AdsApi/AdManager/v202511/AspectRatioImageCreative.php
+    public function __construct($advertiserId = null, $id = null, $name = null, $size = null, $previewUrl = null, ?array $policyLabels = null, ?array $appliedLabels = null, $lastModifiedDateTime = null, ?array $customFieldValues = null, $thirdPartyDataDeclaration = null, $thirdPartyDataDeclarationStatus = null, $adBadgingEnabled = null, $selfDeclaredEuropeanUnionPoliticalContent = null, $destinationUrl = null, $destinationUrlType = null, ?array $imageAssets = null, $altText = null, ?array $thirdPartyImpressionTrackingUrls = null, $overrideSize = null)
     {
       parent::__construct($advertiserId, $id, $name, $size, $previewUrl, $policyLabels, $appliedLabels, $lastModifiedDateTime, $customFieldValues, $thirdPartyDataDeclaration, $thirdPartyDataDeclarationStatus, $adBadgingEnabled, $selfDeclaredEuropeanUnionPoliticalContent, $destinationUrl, $destinationUrlType);
       $this->imageAssets = $imageAssets;

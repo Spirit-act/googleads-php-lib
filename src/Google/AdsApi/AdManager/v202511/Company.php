@@ -125,13 +125,7 @@ class Company
      * @param \Google\AdsApi\AdManager\v202511\ChildPublisher $childPublisher
      * @param \Google\AdsApi\AdManager\v202511\ViewabilityProvider $viewabilityProvider
      */
-<<<<<<< HEAD:src/Google/AdsApi/AdManager/v202411/Company.php
-    public function __construct($id = null, $name = null, $type = null, $address = null, $email = null, $faxPhone = null, $primaryPhone = null, $externalId = null, $comment = null, $creditStatus = null, ?array $appliedLabels = null, $primaryContactId = null, ?array $appliedTeamIds = null, $thirdPartyCompanyId = null, $lastModifiedDateTime = null, $childPublisher = null, $viewabilityProvider = null)
-||||||| 017215366:src/Google/AdsApi/AdManager/v202411/Company.php
-    public function __construct($id = null, $name = null, $type = null, $address = null, $email = null, $faxPhone = null, $primaryPhone = null, $externalId = null, $comment = null, $creditStatus = null, array $appliedLabels = null, $primaryContactId = null, array $appliedTeamIds = null, $thirdPartyCompanyId = null, $lastModifiedDateTime = null, $childPublisher = null, $viewabilityProvider = null)
-=======
-    public function __construct($id = null, $name = null, $type = null, $address = null, $email = null, $faxPhone = null, $primaryPhone = null, $externalId = null, $comment = null, $creditStatus = null, array $appliedLabels = null, $primaryContactId = null, array $appliedTeamIds = null, $thirdPartyCompanyId = null, $verifiedExchangeAdvertiserId = null, $verifiedExchangeBrandId = null, $lastModifiedDateTime = null, $childPublisher = null, $viewabilityProvider = null)
->>>>>>> upstream/main:src/Google/AdsApi/AdManager/v202511/Company.php
+    public function __construct($id = null, $name = null, $type = null, $address = null, $email = null, $faxPhone = null, $primaryPhone = null, $externalId = null, $comment = null, $creditStatus = null, ?array $appliedLabels = null, $primaryContactId = null, ?array $appliedTeamIds = null, $thirdPartyCompanyId = null, $verifiedExchangeAdvertiserId = null, $verifiedExchangeBrandId = null, $lastModifiedDateTime = null, $childPublisher = null, $viewabilityProvider = null)
     {
       $this->id = $id;
       $this->name = $name;
